@@ -1,0 +1,32 @@
+{
+  "name": "Jarvis",
+  "short_name": "Jarvis",
+  "description": "Plan your day. Works offline.",
+  "id": "/jarvis/",
+  "start_url": "/jarvis/",
+  "scope": "/jarvis/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/jarvis/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/jarvis/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/jarvis/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

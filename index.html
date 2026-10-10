@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- viewport-fit=cover lets the layout use safe-area insets around the notch and home bar. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Jarvis</title>
+    <meta name="description" content="Jarvis: plan your day, works offline." />
+    <meta name="theme-color" content="#FFFFFF" />
+    <!-- Relative links so the app works from any deploy folder (see PWA_BASE_PATH). -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <!-- iOS ignores manifest icons for the home screen; it uses this 180x180 icon. -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- "default": dark status-bar text on a white bar; the app starts below it. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Jarvis" />
+    <meta name="format-detection" content="telephone=no" />
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background-color: #ffffff;
+      }
+      body {
+        overflow: hidden;
+        overscroll-behavior: none;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+        box-sizing: border-box;
+        /* Keep content clear of the notch, rounded corners and home bar (portrait and landscape). */
+        padding-top: env(safe-area-inset-top, 0px);
+        padding-right: env(safe-area-inset-right, 0px);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+        padding-left: env(safe-area-inset-left, 0px);
+      }
+    </style>
+  <meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="/jarvis/favicon.ico"/></head>
+  <body>
+    <noscript>Jarvis needs JavaScript turned on.</noscript>
+    <div id="root"></div>
+  <script src="/jarvis/_expo/static/js/web/index-f1e09e6761052e53790d3a3c0161dfd2.js" defer></script>
+</body>
+</html>

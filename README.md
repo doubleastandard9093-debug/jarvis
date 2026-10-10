@@ -2,6 +2,7 @@
 
 Jarvis is a day planner you can talk to. It plans your day, keeps your tasks, and works offline.
 This repository holds only the built web app (a home-screen app for iPhone). The source code is private.
+Updates are published here automatically after the private repo's tests pass.
 
 **Open it:** https://doubleastandard9093-debug.github.io/jarvis/
 
